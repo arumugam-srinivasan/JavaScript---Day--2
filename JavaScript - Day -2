@@ -1,0 +1,43 @@
+Differences Between Document and Window Objects
+
+Introduction:
+In the vast landscape of web development, understanding the intricacies of Document and Window objects is 
+crucial for building dynamic and interactive websites. These two objects play pivotal roles in manipulating and accessing elements within the Document Object Model (DOM).
+
+Document Object:
+The Document object represents the HTML document itself. It serves as the entry point to the content displayed on a webpage, providing a structured representation of the document's elements. When you interact with the Document object, you are essentially working with the content within the HTML file. Some important aspects of the Document object include:
+
+Element Selection and Manipulation:
+The Document object allows developers to select and manipulate HTML elements through methods like getElementById(), getElementsByClassName(), and querySelector().
+You can modify the content, attributes, and styles of elements using methods like innerHTML, setAttribute(), and style.
+
+DOM Tree Navigation:
+The Document object enables navigation through the DOM tree, allowing you to traverse between parent and child elements using properties such as parentNode and childNodes.
+
+Window Object:
+The Window object represents the browser window or tab that contains the HTML document. It serves as a global object and encapsulates various properties and methods related to the browser environment. Here are some key aspects of the Window object:
+
+Global Scope:
+
+The Window object is global and accessible throughout the entire JavaScript application. Variables and functions declared without the var, let, or const keywords become properties of the Window object.
+Browser and Window Properties:
+
+The Window object provides access to browser-related properties, such as window.innerWidth, window.innerHeight, and window.location, which contains information about the current URL.
+
+Timers and Intervals:
+
+Timers and intervals, such as setTimeout() and setInterval(), are methods of the Window object. They allow developers to execute code after a specified delay or at regular intervals.
+
+Conclusion:
+while both the Document and Window objects are essential components of web development, they serve distinct purposes. The Document object focuses on the content and structure of the HTML document, allowing developers to interact with and manipulate its elements. On the other hand, the Window object provides a global context for browser-related functionalities
+
+
+
+
+
+
+
+
+
+
+
